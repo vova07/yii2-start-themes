@@ -19,7 +19,10 @@
     },
     "autoload": {
         "psr-4": {
-            "vova07\\rbac\\": ""
+            "vova07\\themes\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "vova07\\themes\\Bootstrap"
     }
 }
