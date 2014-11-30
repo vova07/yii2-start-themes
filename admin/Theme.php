@@ -37,5 +37,10 @@ class Theme extends \yii\base\Theme
                 'js/bootstrap.min.js'
             ]
         ];
+        Yii::$container->set('yii\grid\CheckboxColumn', [
+            'checkboxOptions' => [
+                'class' => 'simple'
+            ]
+        ]);
     }
 }
