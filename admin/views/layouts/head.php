@@ -4,7 +4,7 @@
  * Head layout.
  */
 
-use vova07\themes\admin\assets\ThemeAsset;
+use vova07\themes\admin\ThemeAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 

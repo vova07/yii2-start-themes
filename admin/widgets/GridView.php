@@ -2,7 +2,7 @@
 
 namespace vova07\themes\admin\widgets;
 
-use vova07\themes\admin\assets\DataTablesAsset;
+use vova07\themes\admin\DataTablesAsset;
 
 /**
  * Class GridView

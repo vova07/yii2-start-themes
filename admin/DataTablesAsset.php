@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\themes\admin\assets;
+namespace vova07\themes\admin;
 
 use yii\web\AssetBundle;
 
@@ -12,7 +12,7 @@ class DataTablesAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vova07/themes/admin';
+    public $sourcePath = '@vova07/themes/admin/assets';
 
     /**
      * @inheritdoc
@@ -25,6 +25,6 @@ class DataTablesAsset extends AssetBundle
      * @inheritdoc
      */
     public $depends = [
-        'vova07\themes\admin\assets\ThemeAsset'
+        'vova07\themes\admin\ThemeAsset'
     ];
 }

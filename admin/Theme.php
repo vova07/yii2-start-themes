@@ -26,13 +26,13 @@ class Theme extends \yii\base\Theme
         parent::init();
 
         Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapAsset'] = [
-            'sourcePath' => '@vova07/themes/admin',
+            'sourcePath' => '@vova07/themes/admin/assets',
             'css' => [
                 'css/bootstrap.min.css'
             ]
         ];
         Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapPluginAsset'] = [
-            'sourcePath' => '@vova07/themes/admin',
+            'sourcePath' => '@vova07/themes/admin/assets',
             'js' => [
                 'js/bootstrap.min.js'
             ]

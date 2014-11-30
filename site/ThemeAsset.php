@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\themes\admin\assets;
+namespace vova07\themes\site;
 
 use yii\web\AssetBundle;
 
@@ -12,27 +12,23 @@ class ThemeAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@vova07/themes/admin';
+    public $sourcePath = '@vova07/themes/site/assets';
 
     /**
      * @inheritdoc
      */
     public $css = [
         'css/font-awesome.min.css',
-        'css/ionicons.min.css',
-        'css/AdminLTE.css',
+        'css/main.css',
         'css/custom.css'
     ];
 
-    public $js = [
-        'js/AdminLTE/app.js'
-    ];
+    public $js = [];
 
     /**
      * @inheritdoc
      */
     public $depends = [
-        'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset'
     ];
