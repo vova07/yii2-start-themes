@@ -14,9 +14,6 @@
         "issues": "https://github.com/vova07/yii2-start-themes/issues?state=open",
         "source": "https://github.com/vova07/yii2-start-themes"
     },
-    "require": {
-        "vova07/yii2-start": "*"
-    },
     "autoload": {
         "psr-4": {
             "vova07\\themes\\": ""
