@@ -28,13 +28,13 @@ class Theme extends \yii\base\Theme
         Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapAsset'] = [
             'sourcePath' => '@vova07/themes/site',
             'css' => [
-                'css/bootstrap.min.css'
+                'assets/css/bootstrap.min.css'
             ]
         ];
         Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapPluginAsset'] = [
             'sourcePath' => '@vova07/themes/site',
             'js' => [
-                'js/bootstrap.min.js'
+                'assets/js/bootstrap.min.js'
             ]
         ];
     }
