@@ -19,7 +19,7 @@ class Bootstrap implements BootstrapInterface
             $app->i18n->translations['vova07/themes/admin*'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'basePath' => '@vova07/themes/admin/messages',
-                'forceTranslation' => true,
+                'forceTranslation' => false,
                 'fileMap' => [
                     'admin' => 'admin.php',
                     'widgets/box' => 'box.php'
@@ -30,7 +30,7 @@ class Bootstrap implements BootstrapInterface
             $app->i18n->translations['vova07/themes/site*'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'basePath' => '@vova07/themes/site/messages',
-                'forceTranslation' => true,
+                'forceTranslation' => false,
                 'fileMap' => [
                     'site' => 'site.php',
                 ]
