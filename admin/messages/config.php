@@ -2,7 +2,7 @@
 
 return [
     'sourcePath' => dirname(__DIR__),
-    'languages' => ['ru'],
+    'languages' => ['de', 'pt-BR', 'ru'],
     'translator' => 'Yii::t',
     'sort' => true,
     'removeUnused' => true,
@@ -18,5 +18,5 @@ return [
     ],
     'format' => 'php',
     'messagePath' => __DIR__,
-    'overwrite' => true,
+    'overwrite' => true
 ];
