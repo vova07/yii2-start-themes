@@ -1,3 +1,5 @@
+# WARNING: This extension is not more maintained
+
 Yii2-Start themes.
 =======================
 This is the main themes extension for Yii2-Start application.
